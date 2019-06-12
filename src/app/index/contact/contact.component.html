@@ -1,0 +1,87 @@
+
+
+ <div class="modal-header white-text ">
+  <h4 class="title ">
+  <i class="fa fa-pen"></i>Contact Form
+  </h4>
+  <button type="button" class="close waves-effect waves-light " data-dismiss="modal" aria-label="Close"
+  class="x" aria-hidden="true" routerLink="/"><span> × </span>
+  </button>
+   </div>
+  <div class="card mb-5">
+  <div class="md-form">
+  <form  [formGroup]="contactForm">
+  <p class="h5 text-center mb-4">Contact info</p>
+  <p id="email">e: test1@gmail.com</p>
+  <p id="phone">m: 0404 602 657</p>
+
+  <div class="md-form">
+  <i class="fa fa-user prefix grey-text"></i>
+  <input type="text" id="contactFormName"  class="form-control" formControlName="contactFormName" mdbInputDirective [(ngModel)]="itemName">
+  <label for="contactFormName">Your name</label>
+  </div>
+
+  <div class="md-form">
+  <i class="fa fa-envelope prefix grey-text"></i>
+  <input type="email" id="contactFormEmail"  class="form-control"  formControlName="contactFormEmail" mdbInputDirective [(ngModel)]="itemEmail">
+  <label for="contactFormEmail">Your email</label>
+  </div>
+
+  <div class="md-form">
+  <i class="fa fa-tag prefix grey-text"></i>
+  <input type="text" id="contactFormSubject"  class="form-control" formControlName="contactFormSubject" mdbInputDirective [(ngModel)]="itemSubject">
+  <label for="contactFormSubject">Subject</label>
+  </div>
+
+  <div class="md-form">
+  <i class="fa fa-pen prefix grey-text"></i>
+  <textarea type="text" id="contactFormMessage"  class="md-textarea" formControlName="contactFormMessage" style="height: 100px" mdbInputDirective [(ngModel)]="itemMessage">
+  </textarea>
+  <label for="contactFormMessage">Your message</label>
+  </div>
+
+  <div class="text-center">
+  <button [disabled]="contactForm.invalid" (click)="onSubmit()"  type="submit" class="btn btn-default" mdbWavesEffect>Send
+  <i class="fa fa-paper"></i>
+  </button>
+  <br>
+  </div>
+
+
+
+<section class="my-5">
+  <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
+  <p class="text-center w-responsive mx-auto pb-5">We are always here!
+    If we can help you choose your perfect cake or if you have a special idea and you will love to make together with us  please let me know. </p>
+<div class="row">
+    <div class="col-lg-12">
+      <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 500px" >
+        <iframe src="https://maps.google.com/maps?q=Dublin&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" width="100%" height="100%"
+          style="border:0," allowfullscreen></iframe>
+      </div>
+        <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+          <p>Dublin, 32</p>
+          <p class="mb-md-0">Ireland</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-phone"></i>
+          </a>
+          <p>+ 01 234 567 89</p>
+          <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <p>test@gmail.com</p>
+          <p class="mb-0">test@gmail.com</p>
+        </div>
+      </div>
+</div>
+</div>
+</section>

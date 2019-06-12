@@ -1,0 +1,12 @@
+
+
+.green-theme {
+    --navBackground: #27b08e;
+    --productTitle: #27b08e;
+}
+
+
+$variables: (
+    --navBackground: var(--navBackground),
+    --productTitle: var(--productTitle)
+);

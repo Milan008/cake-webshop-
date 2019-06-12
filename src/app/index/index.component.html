@@ -1,0 +1,204 @@
+<!-- Carousel -->
+<div class="container">
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="../../assets/banner_img/muffin1.jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive"> Delicioso Muffin</h3>
+          <p>Sofft y húmedos listos para servir.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="../../assets/banner_img/funcake.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive"> Pasteles divertidos</h3>
+          <p> Diseño de pasteles para ocasiones especiales.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="../../assets/banner_img/hb2y.jpg" alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Pasteles de cumpleaños</h3>
+          <p>
+              Pasteles de cumpleaños para niños y adultos, para momentos inolvidables e inolvidables.</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"> Previous </span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  <br>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col-md-4">
+      <!--Card-->
+      <mdb-card cascade="true"  wider="true">
+
+        <!--Card image-->
+        <div class="view view-cascade overlay waves-light hoverable" mdbWavesEffect>
+          <mdb-card-img  src="https://images.unsplash.com/photo-1506815181983-292770fc39f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></mdb-card-img>
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <!--/Card image-->
+
+        <mdb-card-body cascade="true"  wider="true" class="text-center pb-0">
+          <!--Card content-->
+          <!--Title-->
+          <h4 class="card-title " style="color: #2bbbad">
+            <strong>Mini Cakes</strong>
+          </h4>
+          <h4 class="cart-title">
+           Delicious small treats
+          </h4>
+
+          <mdb-card-text>
+            If you're itching for cute, little, irresistible desserts, these recipes have you covered. They may be small in size but are big on flavor, and you probably won't be able to eat just one. Fair warning
+          </mdb-card-text>
+
+          <!--Linkedin-->
+          <a class="px-2 icons-sm li-ic">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+          <!--Twitter-->
+          <a class="px-2 icons-sm tw-ic">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <!--Dribbble-->
+          <a class="px-2 icons-sm fb-ic">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+
+         <!-- Card footer -->
+         <div class="card-footer text-muted text-center mt-4">
+          2 days ago
+        </div>
+ </mdb-card-body>
+        <!--/.Card content-->
+  </mdb-card>
+      <!--/.Card-->
+    </div>
+ <div class="col-md-4">
+      <!--Card-->
+      <mdb-card cascade="true" narrower="true">
+      <!--Card image-->
+        <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+          <mdb-card-img class="wow fadeInLeft" data-wow-delay="5s"  src="https://images.unsplash.com/photo-1559090337-8631216533fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></mdb-card-img>
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <!--/Card image-->
+        <mdb-card-body cascade="true" class="text-center pb-0 px-0">
+          <!--Card content-->
+          <h4 class="cart-title" style="color: #2bbbad">
+            <strong>Fruit Cake </strong> </h4>
+          <!--Title-->
+          <h5 class="card-title"> Amazing inspiration</h5>
+          <!--Text-->
+           <mdb-card-text>
+              Here's another cake recipe you customize for the season and offer fruit. This is home made with blackberry, cranberry, raspberry and blackberry, and has been shown to be a favorite with forest fruit.
+          </mdb-card-text>
+       <a class="btn btn-unique waves-light"  [routerLink]="[ '/products/all-products' ]" mdbWavesEffect>Shop Now</a>
+
+          <!-- Card footer -->
+          <div class="card-footer text-muted text-center mt-4">
+            2 days ago
+          </div>
+
+        </mdb-card-body>
+        <!--/.Card content-->
+
+      </mdb-card>
+      <!--/.Card-->
+    </div>
+
+    <div class="col-md-4">
+      <!--Card-->
+      <mdb-card cascade="true">
+
+        <!--Card image-->
+        <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+          <mdb-card-img src="https://images.unsplash.com/photo-1554194262-6158fdd49c00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></mdb-card-img>
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <!--/Card image-->
+
+        <mdb-card-body cascade="true" class="text-center pb-0 px-0">
+          <!--Card content-->
+          <h4 class="card-title" style="color: #2bbbad">
+            <strong>Design Area</strong>
+          </h4>
+          <h5>We offer and a decoration for your Cakes</h5>
+
+          <mdb-card-text>
+            In our design Area, we offer Cake design on your taste.
+            Send us your wish and we will let you know how soon we can deliver it!
+          </mdb-card-text>
+
+          <!--Linkedin-->
+          <a class="px-2 icons-sm li-ic">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+          <!--Twitter-->
+          <a class="px-2 icons-sm tw-ic">
+            <i class="fab fa-twitter"> </i>
+          </a>
+          <!--Dribbble-->
+          <a class="px-2 icons-sm fb-ic">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+          <!-- Card footer -->
+          <div class="card-footer text-muted text-center mt-4">
+            2 days ago
+          </div>
+       </mdb-card-body>
+        <!--/.Card content-->
+      </mdb-card>
+      <!--/.Card-->
+    </div>
+  </div>
+<br>
+<hr>
+<br>
+<br>
+  <app-best-product></app-best-product>
+
+</div>

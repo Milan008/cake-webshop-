@@ -1,0 +1,52 @@
+
+
+@import "./assets/theme/colors";
+@import "./assets/theme/functions";
+
+
+body {
+  font-family:'Helvetica Neue', helvetica, arial, sans-serif;
+  color:#757575;
+  font-size:14px;
+  padding:0;
+  margin:0;
+  background:#FAFAFA;
+}
+
+#basicExampleNav li {
+  background-color: #08756a;
+  color: white;
+  display: inline-block;
+
+}
+
+#basicExampleNav li:hover {
+  background-color: #2bbbad;
+  color: white;
+  display: inline-block;
+}
+
+.navbar{
+  z-index:10;
+
+}
+
+.footer {
+
+ margin:0 auto;
+    width:834px;
+    height:auto;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer_outer{
+  width:100%;
+  background:#444;
+  padding:10px 0 0 0;
+  margin-top:50px;
+  height: 130px;
+}
+
+

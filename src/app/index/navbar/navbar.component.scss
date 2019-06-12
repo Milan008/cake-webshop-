@@ -1,0 +1,14 @@
+
+@import "../../../assets/theme/colors";
+@import "../../../assets/theme/functions";
+
+
+.navbar {
+  top: 0;
+  background: #00786d;
+  height: 70px;
+}
+
+/deep/ .dropdown-menu {
+  margin-left: -6rem;
+}
