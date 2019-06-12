@@ -84,7 +84,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 *   Used `Angular Services` for sharing app state and data-binding within injected components.
 
-*   Used latest `Bootstrap v4.3.1` version to integrate powerful responsive design powered by CSS FlexBox model.
+*   Used latest `Bootstrap v4.1.3` version to integrate powerful responsive design powered by CSS FlexBox model.
 
 *   Used `semantic` HTML tags and elements with semantic class names.
 
